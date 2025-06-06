@@ -94,7 +94,7 @@ main{
     flex-direction: column;
     gap: 30px;
     max-width: 1200px;
-    padding: 20px 0px;
+    padding: 20px;
 }
 .main-simulator article .title span{
     display: flex;
@@ -167,6 +167,7 @@ main{
     justify-content: center;
     align-items: center;
     background: #eba6ff;
+    padding: 20px 20px;
 }
 .main-simulator article .simulator .container{
     display: flex;
@@ -234,6 +235,7 @@ main{
     padding: 15px;
     border-radius: 10px;
     border: none;
+    font-size: 1rem;
 }
 .main-simulator article .simulator .container .input-simulator .inputs .input-group input::placeholder{
     font-size: 1rem;

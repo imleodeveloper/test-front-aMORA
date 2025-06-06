@@ -1,3 +1,9 @@
+/*
+  Este componente realiza uma simulação de financiamento.
+  Atualmente os cálculos são feitos no front-end.
+  Está pronto para ser integrado a uma API no trecho da função handleSimulate.
+  Ver TODO para detalhes da chamada e payload esperados.
+*/
 "use client";
 import { useState } from "react"
 
@@ -97,7 +103,11 @@ export function Simulator(){
         const entrada = parseFloat(percentualEntrada);
 
 
-        // Cálculos
+        // TODO: Integrar chamada à API de simulação aqui (substituir cálculo manual)
+        // A API deve receber: valorImovel, duracaoContrato, percentualEntrada
+        // E retornar: valorEntrada, valorFinanciar, totalGuardar, valorMensalAGuardar
+
+        // Cálculo mock para testes locais (remover após integração)
         const valorEntrada = imovel * (entrada / 100);
         const valorFinanciar = imovel - valorEntrada;
         const totalGuardar = imovel * 0.15;
@@ -116,7 +126,7 @@ export function Simulator(){
 
 
     return(
-        <section className="simulator">
+        <section className="simulator"  id="container-calculator">
             <div className="container">
                 <div className="input-simulator">
                     <div className="title-simulator">

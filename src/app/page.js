@@ -18,7 +18,7 @@ export default function Home() {
             </ul>
           </span>
           <div>
-            <a href="">
+            <a href="#container-calculator">
               <h1>Calculadora aMORA</h1>
               <p>Descubra quanto custa comprar seu imóvel com a aMORA</p>
             </a>

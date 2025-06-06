@@ -1,0 +1,210 @@
+@media(orientation: portrait){
+    @media(max-width: 1024px){
+        /* SIMULATOR PAGE */
+        .main-simulator article .title{
+            padding: 20px;
+            max-width: 560px;
+        }
+        .main-simulator article .title div{
+            justify-content: center;
+        }
+        .main-simulator article .title div a{
+            width: 100%;
+        }
+
+
+
+        .main-simulator article .simulator{
+            padding: 50px 0px;
+        }
+        .main-simulator article .simulator .container{
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            max-width: 560px;
+        }
+        .main-simulator article .simulator .container .input-simulator{
+            width: 100%;
+        }
+        .main-simulator article .simulator .container .result-simulator{
+            width: 100%;
+            padding: 50px 10px;
+            justify-content: center;
+            align-items: start;
+        }
+        .main-simulator article .simulator .container .result-simulator .graph-result .results{
+            gap: 20px;
+        }
+        .main-simulator article .simulator .container .result-simulator .graph-result .results .custo-moradia,
+        .main-simulator article .simulator .container .result-simulator .graph-result .results .reserva-compra{
+            flex-direction: column;
+            align-items: start;
+        }
+        .main-simulator article .simulator .container .result-simulator .graph-result .results .custo-moradia div p,
+        .main-simulator article .simulator .container .result-simulator .graph-result .results .reserva-compra div p{
+            font-size: 1rem;
+        }
+        /* SIMULATOR PAGE */
+    }
+    @media(min-width: 1025px){
+        /* SIMULATOR PAGE */
+        .main-simulator article .title{
+            padding: 20px;
+            max-width: 800px;
+        }
+        .main-simulator article .title div{
+            justify-content: center;
+        }
+        .main-simulator article .title div a{
+            width: 100%;
+        }
+
+
+        .main-simulator article .simulator{
+            min-height: auto;
+        }
+        .main-simulator article .simulator .container{
+            flex-direction: column;
+            align-items: center;
+            padding: 80px 20px;
+            max-width: 800px;
+        }
+        .main-simulator article .simulator .container .input-simulator{
+            width: 100%;
+        }
+        .main-simulator article .simulator .container .result-simulator{
+            width: 100%;
+            padding: 50px 10px;
+            justify-content: center;
+            align-items: start;
+        }
+        .main-simulator article .simulator .container .result-simulator .graph-result .results{
+            gap: 20px;
+        }
+        .main-simulator article .simulator .container .result-simulator .graph-result .results .custo-moradia,
+        .main-simulator article .simulator .container .result-simulator .graph-result .results .reserva-compra{
+            flex-direction: column;
+            align-items: start;
+        }
+        .main-simulator article .simulator .container .result-simulator .graph-result .results .custo-moradia div p,
+        .main-simulator article .simulator .container .result-simulator .graph-result .results .reserva-compra div p{
+            font-size: 1rem;
+        }
+        /* SIMULATOR PAGE */
+    }
+}
+@media(orientation: landscape){
+    @media(max-width: 1024px){
+        /* SIMULATOR PAGE */
+        .main-simulator article .title{
+            padding: 20px;
+            max-width: 560px;
+        }
+        .main-simulator article .title div{
+            justify-content: center;
+        }
+        .main-simulator article .title div a{
+            width: 100%;
+        }
+
+
+
+        .main-simulator article .simulator{
+            padding: 50px 0px;
+        }
+        .main-simulator article .simulator .container{
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            max-width: 560px;
+        }
+        .main-simulator article .simulator .container .input-simulator{
+            width: 100%;
+        }
+        .main-simulator article .simulator .container .result-simulator{
+            width: 100%;
+            padding: 50px 10px;
+            justify-content: center;
+            align-items: start;
+        }
+        .main-simulator article .simulator .container .result-simulator .graph-result .results{
+            gap: 20px;
+        }
+        .main-simulator article .simulator .container .result-simulator .graph-result .results .custo-moradia,
+        .main-simulator article .simulator .container .result-simulator .graph-result .results .reserva-compra{
+            flex-direction: column;
+            align-items: start;
+        }
+        .main-simulator article .simulator .container .result-simulator .graph-result .results .custo-moradia div p,
+        .main-simulator article .simulator .container .result-simulator .graph-result .results .reserva-compra div p{
+            font-size: 1rem;
+        }
+        /* SIMULATOR PAGE */
+    }
+    @media(min-width: 1560px){
+        /* SIMULATOR PAGE */
+        .main-simulator article .title span ul li{
+            font-size: 1.2rem;
+        }
+        .main-simulator article .title div a h1{
+            font-size: 2.2rem;
+        }
+        .main-simulator article .title div a p{
+            font-size: 1.5rem;
+        }
+
+        .main-simulator article .simulator .container .input-simulator .title-simulator h2{
+            font-size: 2.2rem;
+        }
+        .main-simulator article .simulator .container .input-simulator .title-simulator h3{
+            font-size: 1.7rem;
+        }
+        .main-simulator article .simulator .container .input-simulator .inputs .input-group input,
+        .main-simulator article .simulator .container .input-simulator .inputs .input-group input::placeholder{
+            font-size: 1.2rem;
+        }
+        .main-simulator article .simulator .container .input-simulator .inputs .input-group span{
+            font-size: 1.1rem;
+        }
+        .main-simulator article .simulator .container .input-simulator .inputs button{
+            font-size: 1.2rem;
+        }
+
+
+        .main-simulator article .simulator .container .result-simulator h2{
+            font-size: 2.2rem;
+        }
+        .main-simulator article .simulator .container .result-simulator span{
+            font-size: 1.5rem;
+        }
+        .main-simulator article .simulator .container .result-simulator h3{
+            font-size: 2.4rem;         
+        }
+        .main-simulator article .simulator .container .result-simulator .graph-result .results .custo-moradia div p,
+        .main-simulator article .simulator .container .result-simulator .graph-result .results .reserva-compra div p{
+            font-size: 1.4rem;
+        }
+        .main-simulator article .simulator .container .result-simulator .total span{
+            font-size: 1.4rem;
+        }
+        .main-simulator article .simulator .container .result-simulator .total h3{
+            font-size: 2.2rem;
+        }
+        /* SIMULATOR PAGE */
+        .main-simulator article .simulator .container .result-simulator .graph-result .results .custo-moradia span,
+        .main-simulator article .simulator .container .result-simulator .graph-result .results .reserva-compra span{
+            font-size: 1.5rem;
+        }
+        
+    }
+    @media(min-width: 1920px){
+        /* SIMULATOR PAGE */
+        .main-simulator article .title{
+            min-height: 35vh;
+        }
+        .main-simulator article .simulator{
+            min-height: 65vh;
+        }
+        /* SIMULATOR PAGE */
+    }
+}

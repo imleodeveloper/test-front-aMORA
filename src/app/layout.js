@@ -1,6 +1,6 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import { Roboto } from "next/font/google";
 import "./globals.css";
+import "./media.css";
 import { Header } from "@/components/header";
 
 const roboto = Roboto({
