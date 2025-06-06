@@ -93,8 +93,8 @@ main{
     align-items: start;
     flex-direction: column;
     gap: 30px;
-    padding: 20px;
     max-width: 1200px;
+    padding: 20px 0px;
 }
 .main-simulator article .title span{
     display: flex;
